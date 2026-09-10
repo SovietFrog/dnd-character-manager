@@ -3,7 +3,16 @@ import path from 'node:path'
 
 import { parseClass } from './parser'
 
-const CLASS_ID = 'sorcerer'
+const CLASS_ID = process.argv[2]
+
+if (!CLASS_ID) {
+  throw new Error(
+    'Не указан класс.\n\n' +
+    'Использование:\n' +
+    '  npm run dndsu:parse -- sorcerer\n' +
+    '  npm run dndsu:parse -- ranger'
+  )
+}
 
 const INPUT_FILE = path.resolve(
   `tools/dndsu/data/${CLASS_ID}.html`
@@ -21,7 +30,8 @@ const OUTPUT_FILE = path.join(
 if (!fs.existsSync(INPUT_FILE)) {
   throw new Error(
     `HTML-файл не найден:\n${INPUT_FILE}\n\n` +
-    `Сначала запусти: npm run dndsu:fetch`
+    `Положи HTML в:\n` +
+    `tools/dndsu/data/${CLASS_ID}.html`
   )
 }
 
@@ -34,33 +44,6 @@ const dndClass = parseClass({
   id: CLASS_ID,
   html,
 })
-
-console.log('\n=== FEATURES CHECK ===')
-
-for (const id of [
-  'sorcerous-origin',
-  'spellcasting',
-  'extra-spells',
-  'metamagic',
-]) {
-  const feature = dndClass.features.find(
-    feature => feature.id === id
-  )
-
-  if (!feature) {
-    console.log(`\n[${id}] НЕ НАЙДЕНО`)
-    continue
-  }
-
-  console.log(`\n[${feature.id}] ${feature.name}`)
-  console.log(`Уровень: ${feature.level}`)
-  console.log(`Опциональное: ${feature.optional}`)
-  console.log(`Блоков контента: ${feature.content.length}`)
-
-  for (const node of feature.content) {
-    console.log(`  - ${node.type}`)
-  }
-}
 
 fs.mkdirSync(
   OUTPUT_DIR,
@@ -79,10 +62,12 @@ fs.writeFileSync(
 
 console.log('')
 console.log('=== D&D SU PARSER ===')
+console.log(`ID: ${dndClass.id}`)
 console.log(`Класс: ${dndClass.name}`)
 console.log(`Уровней: ${dndClass.levels.length}`)
 console.log(`Умений: ${dndClass.features.length}`)
 console.log(`Происхождений: ${dndClass.origins.length}`)
+console.log(`Архетипов: ${dndClass.archetypes.length}`)
 console.log('')
 console.log(`JSON: ${OUTPUT_FILE}`)
 console.log('')

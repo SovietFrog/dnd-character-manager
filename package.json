@@ -8,7 +8,8 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "dndsu:fetch": "tsx tools/dndsu/fetch-sorcerer.ts",
-    "dndsu:parse": "tsx tools/dndsu/parse-sorcerer.ts"
+    "dndsu:fetch:ranger": "tsx tools/dndsu/fetch-ranger.ts",
+    "dndsu:parse": "tsx tools/dndsu/parse-class.ts"
   },
   "dependencies": {
     "dexie": "^4.4.5",

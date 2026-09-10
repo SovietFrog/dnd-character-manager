@@ -1,0 +1,6386 @@
+{
+  "id": "sorcerer",
+  "name": "Чародей [Sorcerer]",
+  "source": "Источник: «Player's Handbook»",
+  "levels": [
+    {
+      "level": 1,
+      "proficiencyBonus": 2,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": null
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 4
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 2
+        }
+      ],
+      "spellSlots": {
+        "1": 2,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": [
+        "sorcerous-origin",
+        "spellcasting",
+        "extra-spells"
+      ]
+    },
+    {
+      "level": 2,
+      "proficiencyBonus": 2,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 2
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 4
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 3
+        }
+      ],
+      "spellSlots": {
+        "1": 3,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": [
+        "font-of-magic"
+      ]
+    },
+    {
+      "level": 3,
+      "proficiencyBonus": 2,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 3
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 4
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 4
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 2,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": [
+        "metamagic",
+        "metamagic-options"
+      ]
+    },
+    {
+      "level": 4,
+      "proficiencyBonus": 2,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 4
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 5
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 5
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": [
+        "ASI",
+        "sorcerous-versatility"
+      ]
+    },
+    {
+      "level": 5,
+      "proficiencyBonus": 3,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 5
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 5
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 6
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": [
+        "magical-guidance"
+      ]
+    },
+    {
+      "level": 6,
+      "proficiencyBonus": 3,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 6
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 5
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 7
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": [
+        "sorcerous-origin"
+      ]
+    },
+    {
+      "level": 7,
+      "proficiencyBonus": 3,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 7
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 5
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 8
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 1,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": []
+    },
+    {
+      "level": 8,
+      "proficiencyBonus": 3,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 8
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 5
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 9
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 2,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": [
+        "ASI"
+      ]
+    },
+    {
+      "level": 9,
+      "proficiencyBonus": 4,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 9
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 5
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 10
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 1,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": []
+    },
+    {
+      "level": 10,
+      "proficiencyBonus": 4,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 10
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 11
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": [
+        "metamagic"
+      ]
+    },
+    {
+      "level": 11,
+      "proficiencyBonus": 4,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 11
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 12
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": []
+    },
+    {
+      "level": 12,
+      "proficiencyBonus": 4,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 12
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 12
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": null,
+        "8": null,
+        "9": null
+      },
+      "features": [
+        "ASI"
+      ]
+    },
+    {
+      "level": 13,
+      "proficiencyBonus": 5,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 13
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 13
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": null,
+        "9": null
+      },
+      "features": []
+    },
+    {
+      "level": 14,
+      "proficiencyBonus": 5,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 14
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 13
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": null,
+        "9": null
+      },
+      "features": [
+        "sorcerous-origin"
+      ]
+    },
+    {
+      "level": 15,
+      "proficiencyBonus": 5,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 15
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 14
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": null
+      },
+      "features": []
+    },
+    {
+      "level": 16,
+      "proficiencyBonus": 5,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 16
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 14
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": null
+      },
+      "features": [
+        "ASI"
+      ]
+    },
+    {
+      "level": 17,
+      "proficiencyBonus": 6,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 17
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 15
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "features": [
+        "metamagic"
+      ]
+    },
+    {
+      "level": 18,
+      "proficiencyBonus": 6,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 18
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 15
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "features": [
+        "sorcerous-origin"
+      ]
+    },
+    {
+      "level": 19,
+      "proficiencyBonus": 6,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 19
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 15
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "features": [
+        "ASI"
+      ]
+    },
+    {
+      "level": 20,
+      "proficiencyBonus": 6,
+      "columns": [
+        {
+          "id": "единицы-чародейства",
+          "label": "Единицы чародейства",
+          "value": 20
+        },
+        {
+          "id": "известные-заговоры",
+          "label": "Известные заговоры",
+          "value": 6
+        },
+        {
+          "id": "известные-заклинания",
+          "label": "Известные заклинания",
+          "value": 15
+        }
+      ],
+      "spellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 2,
+        "7": 2,
+        "8": 1,
+        "9": 1
+      },
+      "features": [
+        "sorcerous-restoration"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "sorcerous-origin",
+      "name": "ПРОИСХОЖДЕНИЕ ЧАРОДЕЯ",
+      "level": 1,
+      "optional": false,
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение чародея"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Выберите источник, из которого ваш персонаж черпает свою силу. Все источники раскрыты"
+            },
+            {
+              "type": "link",
+              "text": "ниже",
+              "href": "#sorcerous-origins",
+              "targetType": "other"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ваш выбор предоставляет вам умения на 1-м, 6-м, 14-м и 18-м уровнях."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spellcasting",
+      "name": "Использование заклинаний",
+      "level": 1,
+      "optional": false,
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение чародея"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Определённое событие в вашем прошлом или в жизни ваших родителей или предков оставило на вас неизгладимый отпечаток, связав вас с магией. Ваши заклинания питает некий источник магии, какого бы происхождения он не был. Вы найдёте список заклинаний, доступных чародею в этом разделе:"
+            },
+            {
+              "type": "link",
+              "text": "заклинания чародея",
+              "href": "/spells/?search=&level=&school=&class=19&concentration=&source=",
+              "targetType": "spell"
+            },
+            {
+              "type": "text",
+              "text": ". Так же правила по использованию заклинаний есть в этой статье:"
+            },
+            {
+              "type": "link",
+              "text": "использование заклинаний",
+              "href": "/articles/mechanics/157-spellcasting/",
+              "targetType": "other"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Заговоры (заклинания 0-го уровня)"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "На 1-м уровне вам известны четыре"
+            },
+            {
+              "type": "link",
+              "text": "заговора",
+              "href": "/spells/?search=&level=0&school=&class=19&concentration=&source=",
+              "targetType": "spell"
+            },
+            {
+              "type": "text",
+              "text": ", которые вы выбираете из списка заклинаний чародея. Вы обучаетесь дополнительным заговорам чародея на свой выбор по мере роста в уровнях, как это показано в колонке «Известные заговоры»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Ячейки заклинаний"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Таблица «Чародей» показывает, сколько ячеек заклинаний для сотворения заклинаний чародея у вас есть для заклинаний 1-го и других уровней. Для использования заклинания вы должны потратить ячейку соответствующего, либо превышающего уровня. Вы восстанавливаете все потраченные ячейки по окончании продолжительного отдыха."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Например, если вы знаете заклинание 1-го уровня"
+            },
+            {
+              "type": "link",
+              "text": "огненные ладони [burning hands]",
+              "href": "/spells/203-burning_hands/",
+              "targetType": "spell",
+              "targetId": "203",
+              "targetSlug": "burning_hands"
+            },
+            {
+              "type": "text",
+              "text": ", и у вас есть ячейки 1-го и 2-го уровней, вы можете наложить его с помощью любой из этих ячеек."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Известные заклинания первого и более высоких уровней"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы знаете два заклинания 1-го уровня на свой выбор из списка заклинаний чародея."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Колонка «Известные заклинания» показывает, когда вы сможете выучить новые заклинания. Уровень заклинаний не должен превышать уровень самой высокой имеющейся у вас ячейки заклинаний. Например, когда вы достигнете 3-го уровня в этом классе, вы можете выучить одно новое заклинание 1-го или 2-го уровня."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Кроме того, когда вы получаете новый уровень в этом классе, вы можете одно из известных вам заклинаний чародея заменить на другое из списка чародея, уровень которого тоже должен соответствовать имеющимся ячейкам заклинаний."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Базовая характеристика заклинаний"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы используете Харизму для накладывания заклинаний чародея. Мощь заклинаний зависит от вашей способности проецировать свою волю в реальность. Вы используете Харизму в случаях, когда заклинание ссылается на базовую характеристику. Кроме того, вы используете Харизму при определении Сл спасбросков от ваших заклинаний, и при броске атаки заклинаниями."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Сл спасброска"
+            },
+            {
+              "type": "text",
+              "text": "= 8 + ваш бонус мастерства + ваш модификатор Харизмы"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Модификатор броска атаки"
+            },
+            {
+              "type": "text",
+              "text": "= ваш бонус мастерства + ваш модификатор Харизмы"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Фокусировка заклинания"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете использовать магическую фокусировку в качестве фокусировки для заклинаний чародея."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extra-spells",
+      "name": "Дополнительные заклинания чародея",
+      "level": 1,
+      "optional": true,
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень,"
+            },
+            {
+              "type": "text",
+              "text": "опциональное"
+            },
+            {
+              "type": "text",
+              "text": "умение чародея"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Заклинания из представленного ниже списка расширяют ваш список заклинаний чародея представленный в «"
+            },
+            {
+              "type": "text",
+              "text": "Книге игрока"
+            },
+            {
+              "type": "text",
+              "text": "». Список отсортирован по уровню заклинаний, а не по уровню персонажа. Если заклинание может быть исполнено как ритуал, то в скобках также будет указано «ритуал»."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "Уровень"
+              },
+              {
+                "type": "text",
+                "text": "заклинания"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Заклинания"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Заговор"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "вспышка мечей [sword burst]",
+                  "href": "/spells/461-sword_burst/",
+                  "targetType": "spell",
+                  "targetId": "461",
+                  "targetSlug": "sword_burst"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "громовой клинок [booming blade]",
+                  "href": "/spells/458-booming_blade/",
+                  "targetType": "spell",
+                  "targetId": "458",
+                  "targetSlug": "booming_blade"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "клинок зеленого пламени [green-flame blade]",
+                  "href": "/spells/459-green_flame_blade/",
+                  "targetType": "spell",
+                  "targetId": "459",
+                  "targetSlug": "green_flame_blade"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "лассо молнии [lightning lure]",
+                  "href": "/spells/460-lightning_lure/",
+                  "targetType": "spell",
+                  "targetId": "460",
+                  "targetSlug": "lightning_lure"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "расщепление разума [mind sliver]",
+                  "href": "/spells/3050-mind_sliver/",
+                  "targetType": "spell",
+                  "targetId": "3050",
+                  "targetSlug": "mind_sliver"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "1"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "едкое варево Таши [Tasha’s caustic brew]",
+                  "href": "/spells/3047-tasha_s_caustic_brew/",
+                  "targetType": "spell",
+                  "targetId": "3047",
+                  "targetSlug": "tasha_s_caustic_brew"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "скольжение [grease]",
+                  "href": "/spells/315-grease/",
+                  "targetType": "spell",
+                  "targetId": "315",
+                  "targetSlug": "grease"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "2"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "горящий клинок [flame blade]",
+                  "href": "/spells/48-flame_blade/",
+                  "targetType": "spell",
+                  "targetId": "48",
+                  "targetSlug": "flame_blade"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "магическое оружие [magic weapon]",
+                  "href": "/spells/153-magic_weapon/",
+                  "targetType": "spell",
+                  "targetId": "153",
+                  "targetSlug": "magic_weapon"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "психическая плеть Таши [Tasha’s mind whip]",
+                  "href": "/spells/3053-tasha_s_mind_whip/",
+                  "targetType": "spell",
+                  "targetId": "3053",
+                  "targetSlug": "tasha_s_mind_whip"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "пылающий шар [flaming sphere]",
+                  "href": "/spells/289-flaming_sphere/",
+                  "targetType": "spell",
+                  "targetId": "289",
+                  "targetSlug": "flaming_sphere"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "3"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "крепость интеллекта [intellect fortress]",
+                  "href": "/spells/3049-intellect_fortress/",
+                  "targetType": "spell",
+                  "targetId": "3049",
+                  "targetSlug": "intellect_fortress"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "прикосновение вампира [vampiric touch]",
+                  "href": "/spells/277-vampiric_touch/",
+                  "targetType": "spell",
+                  "targetId": "277",
+                  "targetSlug": "vampiric_touch"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "4"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "огненный щит [fire shield]",
+                  "href": "/spells/206-fire_shield/",
+                  "targetType": "spell",
+                  "targetId": "206",
+                  "targetSlug": "fire_shield"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "5"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "длань Бигби [Bigby’s hand]",
+                  "href": "/spells/57-bigby_s_hand/",
+                  "targetType": "spell",
+                  "targetId": "57",
+                  "targetSlug": "bigby_s_hand"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "6"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "окаменение [flesh to stone]",
+                  "href": "/spells/209-flesh_to_stone/",
+                  "targetType": "spell",
+                  "targetId": "209",
+                  "targetSlug": "flesh_to_stone"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "Отилюков ледяной шар [Otiluke’s freezing sphere]",
+                  "href": "/spells/215-otiluke_s_freezing_sphere/",
+                  "targetType": "spell",
+                  "targetId": "215",
+                  "targetSlug": "otiluke_s_freezing_sphere"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "потусторонний облик Таши [Tasha’s otherwordly guise]",
+                  "href": "/spells/3052-tasha_s_otherworldly_guise/",
+                  "targetType": "spell",
+                  "targetId": "3052",
+                  "targetSlug": "tasha_s_otherworldly_guise"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "7"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "сон синей вуали [dream of the blue veil]",
+                  "href": "/spells/3054-dream_of_the_blue_veil/",
+                  "targetType": "spell",
+                  "targetId": "3054",
+                  "targetSlug": "dream_of_the_blue_veil"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "8"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "демиплан [demiplane]",
+                  "href": "/spells/55-demiplane/",
+                  "targetType": "spell",
+                  "targetId": "55",
+                  "targetSlug": "demiplane"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "9"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "клинок разрушения [blade of disaster]",
+                  "href": "/spells/3048-blade_of_disaster/",
+                  "targetType": "spell",
+                  "targetId": "3048",
+                  "targetSlug": "blade_of_disaster"
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "font-of-magic",
+      "name": "ИСТОЧНИК МАГИИ",
+      "level": 2,
+      "optional": false,
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "2-й уровень, умение чародея"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете доступ к внутреннему источнику магии. Этот источник выражен в единицах чародейства, позволяющих вам создавать разнообразные магические эффекты."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Единицы чародейства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете 2 единицы чародейства, и их становится больше на более высоких уровнях. У вас не может быть этих единиц больше, чем указано в таблице для вашего уровня. Вы восстанавливаете все использованные единицы чародейства по окончании продолжительного отдыха."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Свободное заклинательство"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете использовать единицы чародейства, чтобы получить дополнительные ячейки заклинаний, и наоборот, пожертвовать ячейками, чтобы получить единицы. Другие способы использования единиц чародейства вы освоите на более высоких уровнях."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Преобразование ячейки заклинания в единицы чародейства."
+            },
+            {
+              "type": "text",
+              "text": "Вы можете в свой ход бонусным действием преобразовать одну ячейку заклинаний в единицы чародейства, количество которых равно уровню ячейки."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Создание ячеек заклинаний"
+            },
+            {
+              "type": "text",
+              "text": "."
+            },
+            {
+              "type": "text",
+              "text": "В свой ход вы можете бонусным действием превратить оставшиеся единицы чародейства в дополнительные ячейки заклинаний. Приведённая таблица отображает стоимость создания ячеек разных уровней. Вы не можете создавать ячейки с уровнем выше 5. Созданные ячейки заклинаний исчезают в конце длительного отдыха."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "СОЗДАНИЕ ЯЧЕЕК ЗАКЛИНАНИЙ"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "Уровень ячеек"
+              },
+              {
+                "type": "text",
+                "text": "заклинаний"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Единицы"
+              },
+              {
+                "type": "text",
+                "text": "чародейства"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "1"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "2"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "2"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "3"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "3"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "5"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "4"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "6"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "5"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "7"
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metamagic",
+      "name": "Метамагия",
+      "level": 3,
+      "optional": false,
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "3-й уровень, умение чародея"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете способность подстраивать заклинания под свои нужды. Вы выбираете два варианта метамагии из перечисленных ниже. На 10-м и 17-м уровне вы получаете ещё по одному варианту."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "При накладывании заклинания может быть использован только один метамагический вариант, если в его описании не указано обратное."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Аккуратное заклинание"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда вы накладываете заклинание, которое вынуждает других существ совершить спасбросок, вы можете защитить некоторых из них от магического воздействия. Для этого вы тратите 1 единицу чародейства и выбираете существ в количестве, равном вашему модификатору Харизмы (минимум одно существо). Указанные существа автоматически преуспевают в спасброске от данного заклинания."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Далёкое заклинание"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "При накладывании заклинания, дистанция которого 5 футов и более, вы можете потратить 1 единицу чародейства, чтобы удвоить это расстояние."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "При накладывании заклинания с дистанцией «касание», вы можете потратить 1 единицу чародейства, чтобы увеличить это расстояние до 30 футов."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Непреодолимое заклинание"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда вы накладываете заклинание, которое вынуждает существо совершить спасбросок для защиты от его эффектов, вы можете потратить 3 единицы чародейства, чтобы одна из целей заклинания совершила первый спасбросок от этого заклинания с помехой."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Неуловимое заклинание"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Во время накладывания заклинания вы можете потратить 1 единицу чародейства, чтобы наложить его без вербальных и соматических компонентов."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Продлённое заклинание"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "При накладывании заклинания с длительностью 1 минута или более, вы можете потратить 1 единицу чародейства, чтобы удвоить это время, вплоть до максимального в 24 часа."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Удвоенное заклинание"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Если вы используете заклинание, нацеливаемое только на одно существо и не имеющее дистанцию «на себя», вы можете потратить количество единиц чародейства, равное уровню заклинания (1 для заговоров), чтобы нацелиться им на второе существо-цель в пределах дистанции этого заклинания."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Чтобы применить этот вариант, заклинание не должно быть способно нацеливаться более чем на одну цель на текущем накладываемом уровне. Например,"
+            },
+            {
+              "type": "link",
+              "text": "волшебная стрела [magic missile]",
+              "href": "/spells/27-magic_missile/",
+              "targetType": "spell",
+              "targetId": "27",
+              "targetSlug": "magic_missile"
+            },
+            {
+              "type": "text",
+              "text": "и"
+            },
+            {
+              "type": "link",
+              "text": "палящий луч [scorching ray]",
+              "href": "/spells/225-scorching_ray/",
+              "targetType": "spell",
+              "targetId": "225",
+              "targetSlug": "scorching_ray"
+            },
+            {
+              "type": "text",
+              "text": "не могут быть усилены этой метамагией, а"
+            },
+            {
+              "type": "link",
+              "text": "луч холода [ray of frost]",
+              "href": "/spells/149-ray_of_frost/",
+              "targetType": "spell",
+              "targetId": "149",
+              "targetSlug": "ray_of_frost"
+            },
+            {
+              "type": "text",
+              "text": "и"
+            },
+            {
+              "type": "link",
+              "text": "цветной шарик [chromatic orb]",
+              "href": "/spells/86-chromatic_orb/",
+              "targetType": "spell",
+              "targetId": "86",
+              "targetSlug": "chromatic_orb"
+            },
+            {
+              "type": "text",
+              "text": "— могут."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Усиленное заклинание"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "При совершении броска урона от заклинания вы можете потратить 1 единицу чародейства, чтобы перебросить несколько костей урона в количестве не больше вашего модификатора Харизмы (минимум одна). Вы должны использовать новое выпавшее значение."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете воспользоваться вариантом «усиленное заклинание» даже если вы уже использовали другой вариант метамагии для этого заклинания."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Ускоренное заклинание"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Если вы накладываете заклинание со временем накладывания «1 действие», вы можете потратить 2 единицы чародейства, чтобы наложить это заклинание бонусным действием."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metamagic-options",
+      "name": "Ищущее заклинание",
+      "level": null,
+      "optional": true,
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Опциональный"
+            },
+            {
+              "type": "text",
+              "text": "вариант метамагии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Если вы совершаете бросок атаки для заклинания и промахиваетесь, вы можете потратить 2 единицы чародейства, чтобы перебросить к20, и должны использовать новый бросок. Вы можете использовать это умение, даже если вы уже использовали другой вариант метамагии во время накладывания заклинания."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Преобразованное заклинание"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Опциональный"
+            },
+            {
+              "type": "text",
+              "text": "вариант метамагии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда вы накладываете заклинание, которое наносит тип урона из перечисленного списка, вы можете потратить 1 единицу чародейства и изменить этот тип урона на другой из следующих: звук, кислота, огонь, холод, электричество, яд."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASI",
+      "name": "УВЕЛИЧЕНИЕ ХАРАКТЕРИСТИК",
+      "level": 4,
+      "optional": false,
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "4-й уровень, умение чародея"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "При достижении 4-го, 8-го, 12-го, 16-го и 19-го уровней вы можете повысить значение одной из ваших характеристик на 2 или двух характеристик на 1. Как обычно, значение характеристики при этом не должно превысить 20."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Если ваш Мастер разрешает использование черт, вы можете отказаться от преимуществ этого умения при повышении значений характеристик и вместо этого взять"
+            },
+            {
+              "type": "link",
+              "text": "черту",
+              "href": "/feats/",
+              "targetType": "other"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sorcerous-versatility",
+      "name": "Универсальность чародея",
+      "level": 4,
+      "optional": true,
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "4-й уровень,"
+            },
+            {
+              "type": "text",
+              "text": "опциональное"
+            },
+            {
+              "type": "text",
+              "text": "умение чародея"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Каждый раз, когда вы достигаете определённого уровня в этом классе и получаете умение «Увеличение характеристик», вы можете сделать одно из следующих действий, отражающих изменения в том, как магия течёт внутри вас:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Замените один из ваших метамагических вариантов другим доступным вам."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Замените один заговор, который вы узнали благодаря умению «Использование заклинаний» этого класса, другим заговором из списка заклинаний чародея."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magical-guidance",
+      "name": "Волшебное указание",
+      "level": 5,
+      "optional": true,
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "5-й уровень,"
+            },
+            {
+              "type": "text",
+              "text": "опциональное"
+            },
+            {
+              "type": "text",
+              "text": "умение чародея"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете использовать свой внутренний источник магии, чтобы попытаться обратить неудачу в успех. Когда вы совершаете проверку характеристики и проваливаете её, вы можете потратить 1 единицу чародейства, чтобы перебросить к20, потенциально превращая провал в успех, но должны использовать новый бросок."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sorcerous-restoration",
+      "name": "ЧАРОДЕЙСКОЕ ВОССТАНОВЛЕНИЕ",
+      "level": 20,
+      "optional": false,
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "20-й уровень, умение чародея"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы восстанавливаете 4 единицы чародейства, когда заканчиваете короткий отдых."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "origins": [
+    {
+      "id": "draconic",
+      "name": "Наследие драконьей крови",
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ваша врождённая магия произошла из магии драконов, примешавшейся к вашей крови, или унаследованной вами. Чаще всего, чародеи с таким источником силы могут проследить свою родословную до могучих чародеев древности, заключавших сделки с драконами или даже объявлявших себя потомками драконов. Некоторые из таких наследственных ветвей хорошо известны, но большинство из них скрыты. Или чародей может являться родоначальником такой ветви, получив силу в результате договора или других сверхъестественных обстоятельств."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ДРАКОНИЙ ПРЕДОК"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение наследия драконьей крови"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы выбираете вид вашего дракона предка. Связанный с ним вид урона используется в ваших умениях."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "ДРАКОНИЙ ПРЕДОК"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "Дракон"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Вид урона"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Белый"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Холод"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Бронзовый"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Электричество"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Зеленый"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Яд"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Золотой"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Огонь"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Красный"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Огонь"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Латунный"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Огонь"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Медный"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Кислота"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Серебряный"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Холод"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Синий"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Электричество"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Чёрный"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Кислота"
+                }
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете говорить, читать и писать на Драконьем языке. Кроме того, когда вы взаимодействуете с драконами и совершаете проверку Харизмы, ваш бонус мастерства удваивается для этой проверки."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ДРАКОНЬЯ УСТОЙЧИВОСТЬ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение наследия драконьей крови"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Магия, струящаяся через ваше тело, проявляет физические черты ваших предков драконов. Максимум ваших хитов увеличивается на 1 на 1-м уровне и на 1 на каждом уровне, полученном в данном классе."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Кроме того, некоторые участки вашей кожи покрыты тонкой драконьей чешуёй. Если вы не носите доспехов, ваш Класс Доспеха равен 13 + модификатор Ловкости."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "РОДСТВО СО СТИХИЕЙ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение наследия драконьей крови"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда вы накладываете заклинание, причиняющее урон вида, связанного с вашим драконьим предком, вы добавляете модификатор Харизмы к одному броску урона этого заклинания. В это же самое время вы можете потратить 1 единицу чародейства, чтобы получить сопротивление этому виду урона на 1 час."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "КРЫЛЬЯ ДРАКОНА"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "14-й уровень, умение наследия драконьей крови"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете способность расправить драконьи крылья у себя за спиной, получая при этом скорость полёта, равную вашей текущей скорости. Вы можете создать их бонусным действием в свой ход. Крылья существуют, пока вы не развеете их бонусным действием в свой ход."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы не можете призвать свои крылья, нося броню, если, конечно, броня не изготовлена специально для этого. Одежда, также не приспособленная под крылья, может быть уничтожена, когда вы призываете их."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ОБРАЗ ДРАКОНА"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "18-й уровень, умение наследия драконьей крови"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете вызвать ужасный образ своего предка дракона, повергая им в ужас врагов. Вы можете действием потратить 5 единиц чародейства, чтобы окружить себя аурой страха или трепета (на ваш выбор), радиусом 60 футов. В течение 1 минуты, или пока вы не утратите концентрацию (как если бы вы концентрировались на заклинании), все враждебные существа, начинающие ход в этой ауре, должны преуспеть в спасброске Мудрости, иначе они станут"
+            },
+            {
+              "type": "text",
+              "text": "очарованными"
+            },
+            {
+              "type": "text",
+              "text": "(если вы выбрали трепет) или"
+            },
+            {
+              "type": "text",
+              "text": "испуганными"
+            },
+            {
+              "type": "text",
+              "text": "(если вы выбрали страх) до окончания действия ауры. Существо, преуспевшее в спасброске, получает иммунитет к вашей ауре на 24 часа."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wild-magic",
+      "name": "Дикая магия",
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ваша магия исходит от диких сил хаоса, лежащих в основе мироздания. Вы, возможно, подверглись воздействию грубой магии в той или иной форме. Возможно, она просочилась через портал, ведущий в Лимбо, Стихийные Планы или таинственный Дальний Предел. Может быть, вы были благословлены могущественной феей или отмечены демоном. Или ваша магия может быть случайностью вашего рождения, без очевидной причины. Вне зависимости от её происхождения, хаотическая магия бурлит внутри вас, готовая вырваться наружу."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ВОЛНА ДИКОЙ МАГИИ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение дикой магии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ваше колдовство может вызвать волны дикой магии. Один раз за ход, сразу после накладывания вами заклинания чародея как минимум 1-го уровня, Мастер может попросить вас бросить к20. Если выпадает «1», бросьте кость по таблице «Волна дикой магии» для создания случайного магического эффекта. Если эффект волны является заклинанием, он слишком непредсказуем, чтобы его можно было модифицировать метамагией. Если заклинание-эффект в обычных обстоятельствах требует концентрацию, то в данном случае оно не требует концентрацию и длится свою максимальную длительность."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ПОТОК ХАОСА"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение дикой магии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете манипулировать силами случая и хаоса, чтобы получить преимущество для одного броска атаки, проверки характеристики или спасброска. Сделав это, вы должны совершить продолжительный отдых, прежде чем вы сможете использовать это умение ещё раз."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "В любой момент до того как вы восстановите это умение, сразу после использования вами заклинания чародея как минимум 1-го уровня, Мастер может попросить вас бросить кость по таблице «Волна дикой магии». После этого вы восстанавливаете использование этого умения."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ПОДЧИНЕНИЕ УДАЧИ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение дикой магии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете возможность менять судьбу с помощью дикой магии. Когда другое существо, видимое вами, совершает бросок атаки, проверку характеристики или спасбросок, вы можете реакцией потратить 2 единицы чародейства и бросить 1к4. Результат броска станет бонусом или штрафом (на ваш выбор) к броску существа. Вы можете сделать это после броска существа, но до того, как начнут действовать эффекты от броска."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "КОНТРОЛИРУЕМЫЙ ХАОС"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "14-й уровень, умение дикой магии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете толику контроля над волнами дикой магии. Каждый раз, когда вы совершаете бросок по таблице дикой магии, вы можете совершить два броска и использовать любой из двух."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "РАЗРУШИТЕЛЬНЫЕ ЗАКЛИНАНИЯ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "18-й уровень, умение дикой магии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Разрушительная энергия ваших заклинаний увеличивается. Когда вы совершаете бросок урона от заклинания, и на одной из костей выпадает максимально возможное значение, выберите одну из этих костей и бросьте её ещё раз. Добавьте выпавшее значение к урону. Вы можете использовать это умение только один раз в ход."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "ВОЛНА ДИКОЙ МАГИИ"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "к100"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Эффект"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "01-02"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Совершайте бросок по этой таблице в начале каждого своего хода в течение следующей минуты, игнорируя результат «01–02»."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "03-04"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В течение минуты вы можете видеть"
+                },
+                {
+                  "type": "text",
+                  "text": "невидимых"
+                },
+                {
+                  "type": "text",
+                  "text": "существ, если у вас есть линия обзора до них."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "05-06"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В свободном пространстве в пределах 5 футов от вас появляется"
+                },
+                {
+                  "type": "link",
+                  "text": "модрон",
+                  "href": "/articles/bestiary/48-modrony/",
+                  "targetType": "other"
+                },
+                {
+                  "type": "text",
+                  "text": ", выбранный и контролируемый Мастером. Модрон исчезает через 1 минуту."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "07-08"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы накладываете"
+                },
+                {
+                  "type": "link",
+                  "text": "огненный шар [fireball]",
+                  "href": "/spells/205-fireball/",
+                  "targetType": "spell",
+                  "targetId": "205",
+                  "targetSlug": "fireball"
+                },
+                {
+                  "type": "text",
+                  "text": "как заклинание 3-го уровня с центром на себе."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "09-10"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы накладываете"
+                },
+                {
+                  "type": "link",
+                  "text": "волшебную стрелу [magic missile]",
+                  "href": "/spells/27-magic_missile/",
+                  "targetType": "spell",
+                  "targetId": "27",
+                  "targetSlug": "magic_missile"
+                },
+                {
+                  "type": "text",
+                  "text": "как заклинание 5-го уровня."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "11-12"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Бросьте 1к10. Ваш рост изменяется на количество дюймов, равное результату броска. Если бросок нечётный, вы уменьшаетесь. Если бросок чётный, вы растёте."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "13-14"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы накладываете заклинание"
+                },
+                {
+                  "type": "link",
+                  "text": "смятение [confusion]",
+                  "href": "/spells/325-confusion/",
+                  "targetType": "spell",
+                  "targetId": "325",
+                  "targetSlug": "confusion"
+                },
+                {
+                  "type": "text",
+                  "text": "с центром на себе."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "15-16"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В течение следующей минуты вы восстанавливаете по 5 хитов в начале каждого своего хода."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "17-18"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "У вас вырастает длинная борода из перьев, которая остаётся, пока вы не чихнёте, и в этот момент перья разлетаются во все стороны."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "19-20"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы накладываете заклинание"
+                },
+                {
+                  "type": "link",
+                  "text": "скольжение [grease]",
+                  "href": "/spells/315-grease/",
+                  "targetType": "spell",
+                  "targetId": "315",
+                  "targetSlug": "grease"
+                },
+                {
+                  "type": "text",
+                  "text": "с центром на себе."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "21-22"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Существа получают помеху к спасброскам от следующего заклинания, которое вы наложите в течение следующей минуты, требующего совершить спасбросок."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "23-24"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ваша кожа окрашивается в ярко-синий цвет. Заклинание"
+                },
+                {
+                  "type": "link",
+                  "text": "снятие проклятья [remove curse]",
+                  "href": "/spells/326-remove_curse/",
+                  "targetType": "spell",
+                  "targetId": "326",
+                  "targetSlug": "remove_curse"
+                },
+                {
+                  "type": "text",
+                  "text": "отменяет этот эффект."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "25-26"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "На вашем лбу на минуту появляется глаз. В течение этого времени, вы совершаете с преимуществом проверки Мудрости ("
+                },
+                {
+                  "type": "text",
+                  "text": "Восприятие"
+                },
+                {
+                  "type": "text",
+                  "text": "), полагающиеся на зрение."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "27-28"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В течение следующей минуты все ваши заклинания со временем накладывания «1 действие» могут быть наложены бонусным действием."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "29-30"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы телепортируетесь на расстояние до 60 футов в свободное пространство по вашему выбору, которое видите."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "31-32"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы перемещаетесь на Астральный план до конца своего следующего хода, после чего вы вернётесь в пространство, ранее занимаемое, или ближайшее свободное пространство, если это пространство занято."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "33-34"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Урон от следующего заклинания, наносящего урон и наложенного вами в течение следующей минуты, будет максимальным."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "35-36"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Бросьте к10. Ваш возраст изменяется на число лет, равное броску. Если бросок нечётный, вы молодеете (минимум на 1 год). Если бросок чётный, вы стареете."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "37-38"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В пределах 60 футов от вас в свободном пространстве появляются 1к6"
+                },
+                {
+                  "type": "link",
+                  "text": "фламфов [flumph]",
+                  "href": "/bestiary/153-flumph/",
+                  "targetType": "bestiary",
+                  "targetId": "153",
+                  "targetSlug": "flumph"
+                },
+                {
+                  "type": "text",
+                  "text": ", контролируемых Мастером и"
+                },
+                {
+                  "type": "text",
+                  "text": "напуганных"
+                },
+                {
+                  "type": "text",
+                  "text": "вами. Они исчезают через 1 минуту."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "39-40"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы восстанавливаете 2к10 хитов."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "41-42"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы превращаетесь в горшок с цветами до начала своего следующего хода. Будучи растением, вы недееспособны и уязвимы для всех видов урона. Если ваши хиты опускаются до 0, ваш горшок раскалывается, и вы возвращаетесь в свою форму."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "43-44"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В течение следующей минуты вы можете в каждый свой ход бонусным действием телепортироваться на расстояние до 20 футов"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "45-46"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы накладываете заклинание"
+                },
+                {
+                  "type": "link",
+                  "text": "левитация [levitate]",
+                  "href": "/spells/139-levitate/",
+                  "targetType": "spell",
+                  "targetId": "139",
+                  "targetSlug": "levitate"
+                },
+                {
+                  "type": "text",
+                  "text": "на себя."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "47-48"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В пределах 5 футов от вас появляется"
+                },
+                {
+                  "type": "link",
+                  "text": "единорог [unicorn]",
+                  "href": "/bestiary/306-unicorn/",
+                  "targetType": "bestiary",
+                  "targetId": "306",
+                  "targetSlug": "unicorn"
+                },
+                {
+                  "type": "text",
+                  "text": ", контролируемый Мастером. Он исчезает через 1 минуту."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "49-50"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы не можете говорить в течение следующей минуты. Всякий раз, когда вы пытаетесь говорить, из вашего рта вылетают розовые пузырьки."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "51-52"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В течение следующей минуты рядом с вами парит призрачный щит, предоставляющий бонус +2 к КД и иммунитет к волшебной стреле."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "53-54"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы получаете иммунитет к воздействию алкоголя на ваш организм в течение следующих 5к6 дней."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "55-56"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "У вас выпадают все волосы, но отрастают обратно за 24 часа."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "57-58"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В течение следующей минуты все легковоспламеняющиеся предметы, не несомые и не носимые другим существом, которых вы касаетесь, загораются."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "59-60"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы восстанавливаете самую низкоуровневую ячейку заклинания, потраченную вами."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "61-62"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В течение следующей минуты вы должны кричать, когда говорите."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "63-64"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы накладываете заклинание"
+                },
+                {
+                  "type": "link",
+                  "text": "туманное облако [fog cloud]",
+                  "href": "/spells/351-fog_cloud/",
+                  "targetType": "spell",
+                  "targetId": "351",
+                  "targetSlug": "fog_cloud"
+                },
+                {
+                  "type": "text",
+                  "text": "с центром на себе."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "65-66"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "До трёх существ на ваш выбор в пределах 30 футов от вас получают урон электричеством 4к10."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "67-68"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы"
+                },
+                {
+                  "type": "text",
+                  "text": "испуганы"
+                },
+                {
+                  "type": "text",
+                  "text": "ближайшим к вам существом до конца своего следующего хода."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "69-70"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Все существа в пределах 30 футов от вас становятся"
+                },
+                {
+                  "type": "text",
+                  "text": "невидимыми"
+                },
+                {
+                  "type": "text",
+                  "text": "на 1 минуту. Невидимость прекращается, если существо совершает атаку или накладывает заклинание."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "71-72"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы получаете на 1 минуту сопротивление всем видам урона."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "73-74"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Случайное существо в пределах 60 футов от вас становится"
+                },
+                {
+                  "type": "text",
+                  "text": "отравленным"
+                },
+                {
+                  "type": "text",
+                  "text": "на 1к4 часа."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "75-76"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы в течение минуты излучаете"
+                },
+                {
+                  "type": "text",
+                  "text": "яркий свет"
+                },
+                {
+                  "type": "text",
+                  "text": "в радиусе 30 футов. Все существа, оканчивающие ход в пределах 5 футов от вас, становятся"
+                },
+                {
+                  "type": "text",
+                  "text": "ослепшими"
+                },
+                {
+                  "type": "text",
+                  "text": "до конца своего следующего хода."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "77-78"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы накладываете на себя заклинание"
+                },
+                {
+                  "type": "link",
+                  "text": "превращение [polymorph]",
+                  "href": "/spells/260-polymorph/",
+                  "targetType": "spell",
+                  "targetId": "260",
+                  "targetSlug": "polymorph"
+                },
+                {
+                  "type": "text",
+                  "text": ". Если вы проваливаете спасбросок, то на время действия заклинания превращаетесь в овцу."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "79-80"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В течение минуты в пределах 10 футов от вас в воздухе порхают иллюзорные бабочки и лепестки цветов."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "81-82"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы можете немедленно совершить одно дополнительное действие."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "83-84"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Все существа в пределах 30 футов от вас получают урон некротической энергией 1к10. Вы восстанавливаете хиты, равные сумме причинённого урона."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "85-86"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы накладываете заклинание"
+                },
+                {
+                  "type": "link",
+                  "text": "отражения [mirror image]",
+                  "href": "/spells/218-mirror_image/",
+                  "targetType": "spell",
+                  "targetId": "218",
+                  "targetSlug": "mirror_image"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "87-88"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы накладываете заклинание"
+                },
+                {
+                  "type": "link",
+                  "text": "полёт [fly]",
+                  "href": "/spells/249-fly/",
+                  "targetType": "spell",
+                  "targetId": "249",
+                  "targetSlug": "fly"
+                },
+                {
+                  "type": "text",
+                  "text": "на случайное существо в пределах 60 футов от вас."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "89-90"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы становитесь"
+                },
+                {
+                  "type": "text",
+                  "text": "невидимым"
+                },
+                {
+                  "type": "text",
+                  "text": "на 1 минуту. При этом другие существа не могут услышать вас. Невидимость оканчивается, если вы атакуете или накладываете заклинание."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "91-92"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Если вы погибнете в течение следующей минуты, то мгновенно вернётесь к жизни, как если бы вас воскресили заклинанием"
+                },
+                {
+                  "type": "link",
+                  "text": "реинкарнация [reincarnate]",
+                  "href": "/spells/365-reincarnate/",
+                  "targetType": "spell",
+                  "targetId": "365",
+                  "targetSlug": "reincarnate"
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "93-94"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ваш размер на 1 минуту увеличивается на одну категорию."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "95-96"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы и все существа в пределах 30 футов от вас получаете на 1 минуту уязвимость колющему урону."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "97-98"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В течение следующей минуты вы окружены тихой неземной музыкой."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "99-00"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы восстанавливаете все потраченные единицы чародейства."
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "divine-soul",
+      "name": "Божественная душа",
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Источник: «Xanathar’s Guide to Everything»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Иногда искра магии, питающая чародея, исходит от божественного начала, мерцающего в душе. Наличие такой благословенной души является признаком того, что ваша врождённая магия может исходить из далекой, но могущественной семейной связи с божественным существом. Возможно, ваш предок был ангелом, превращённый в смертного и посланный сражаться во имя своего бога. Или ваше рождение может быть предрешено древним пророчеством, что делает из вас служителя богов или избранным сосудом божественной магии."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Традиционная религиозная иерархия часто видит в божественных душах угрозу из-за их природного магнетизма. Эти чародеи, повелевая силой богов, могут подорвать существующий строй и заявить, что они напрямую связаны с божеством."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "В некоторых культурах только тот, кто обладает божественной душой, может стать священнослужителем. На таких землях духовенство, как правило, является наследным и передаётся из поколения в поколение в виде нескольких избранных семей или кланов."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "БОЖЕСТВЕННАЯ МАГИЯ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение божественной души"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ваша связь с божеством позволяет вам изучать заклинания из класса жреца. Когда ваше умение «Использование заклинаний» позволяет вам изучить или заменить заговор чародея или заклинание чародея 1-го уровня или выше, вы можете выбрать новое заклинание из списка заклинаний жреца или списка заклинаний чародея."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы должны соблюдать все остальные ограничения при выборе заклинания, но это заклинание для вас становится заклинанием чародея. Кроме того, выберите склонность к источнику вашей божественной силы: добро, зло, закон, хаос или нейтралитет."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы изучаете дополнительное заклинание, основанное на этой склонности, как показано ниже. Это заклинание для вас становится заклинанием чародея, но оно не учитывается при подсчёте известных вам заклинаний чародея. Если вы позже замените это заклинание, вы должны заменить его заклинанием из списка заклинаний жреца."
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "Склонность"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Заклинание"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Добро"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "лечение ран [cure wounds]",
+                  "href": "/spells/145-cure_wounds/",
+                  "targetType": "spell",
+                  "targetId": "145",
+                  "targetSlug": "cure_wounds"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Зло"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "нанесение ран [inflict wounds]",
+                  "href": "/spells/177-inflict_wounds/",
+                  "targetType": "spell",
+                  "targetId": "177",
+                  "targetSlug": "inflict_wounds"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Закон"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "благословение [bless]",
+                  "href": "/spells/9-bless/",
+                  "targetType": "spell",
+                  "targetId": "9",
+                  "targetSlug": "bless"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Хаос"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "порча [bane]",
+                  "href": "/spells/254-bane/",
+                  "targetType": "spell",
+                  "targetId": "254",
+                  "targetSlug": "bane"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "Нейтралитет"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "защита от зла и добра [protection from evil and good]",
+                  "href": "/spells/99-protection_from_evil_and_good/",
+                  "targetType": "spell",
+                  "targetId": "99",
+                  "targetSlug": "protection_from_evil_and_good"
+                }
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ЛЮБИМЧИК БОГОВ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение божественной души"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Божественная сила охраняет вашу судьбу."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Если вы проваливаете спасбросок или промахиваетесь броском атаки, вы можете бросить 2к4 и добавить выпавшее значение к результату, возможно тем самым изменив исход."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Использовав это умение, вы не можете использовать его повторно до окончания короткого или продолжительного отдыха."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "УСИЛЕННОЕ ЛЕЧЕНИЕ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение божественной души"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Божественная энергия, проходящая через вас, может усилить лечащие заклинания. Всякий раз, когда вы или союзник в пределах 5 футов от вас совершаете бросок кости, чтобы определить количество хитов, которое восстанавливается заклинанием, вы можете потратить 1 единицу чародейства чтобы один раз перебросить любое количество костей, при условии, что вы не являетесь недееспособным. Вы можете использовать это умение только один раз за ход."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "КРЫЛЬЯ ИЗ ДРУГОГО МИРА"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "14-й уровень, умение божественной души"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете бонусным действием расправить пару спектральных крыльев за спиной. Пока крылья находятся там, вы получаете скорость полёта 30 футов."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Крылья не исчезают до тех пор, пока вы не станете"
+            },
+            {
+              "type": "text",
+              "text": "недееспособны"
+            },
+            {
+              "type": "text",
+              "text": ", не умрёте или не рассеете их бонусным действием. Склонность, которую вы выбрали для своего умения «Божественная магия», определяет внешний вид спектральных крыльев: орлиные крылья для добра или закона, крылья летучей мыши для зла или хаоса и крылья стрекозы для нейтралитета."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "НЕЗЕМНОЕ ВОССТАНОВЛЕНИЕ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "18-й уровень, умение божественной души"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете возможность переносить серьёзнейшие повреждения. Бонусным действием вы можете восстановить половину своих максимальных хитов в случае, если у вас осталось меньше половины хитов."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Использовав это умение, вы не можете использовать его повторно до окончания продолжительного отдыха."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shadow",
+      "name": "Теневая магия",
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Источник: «Xanathar’s Guide to Everything»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы — существо тени, потому что ваша врождённая магия исходит из самого Царства Теней. Вы могли бы проследить свою родословную до сущности из этого места или, возможно, вы подверглись воздействию её беспощадной энергии и были трансформированы ею."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Сила теневой магии накладывает странный покров на ваш внешний вид. Искра жизни, которая поддерживает вас, приглушена, как будто она изо всех сил пытается противостоять тёмной энергии, которая проникает в вашу душу. Вы можете самостоятельно выбрать причуду для вашего персонажа или определить её случайным образом по таблице «Причуды теневых чародеев»."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Причуды теневых чародеев"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "к6"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Причуда"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "1"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы всегда холодны на ощупь."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "2"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Когда вы спите, кажется, что вы не дышите (хотя вы все равно должны дышать, чтобы жить)."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "3"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы почти не истекаете кровью, даже когда получили тяжёлые ранения."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "4"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ваше сердце бьётся один раз в минуту. Это событие иногда вас удивляет."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "5"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "У вас есть проблема с тем, чтобы вспомнить, что к живым существам и трупам следует относиться по-разному."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "6"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы моргнули. Один раз. На прошлой неделе."
+                }
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ГЛАЗА ТЬМЫ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение теневой магии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете"
+            },
+            {
+              "type": "text",
+              "text": "тёмное зрение"
+            },
+            {
+              "type": "text",
+              "text": "в пределах 120 футов. Когда вы достигаете 3-го уровня в этом классе, вы изучаете заклинание"
+            },
+            {
+              "type": "link",
+              "text": "тьма [darkness]",
+              "href": "/spells/353-darkness/",
+              "targetType": "spell",
+              "targetId": "353",
+              "targetSlug": "darkness"
+            },
+            {
+              "type": "text",
+              "text": ", которое не учитывается при подсчёте известных вам заклинаний чародея. Кроме того, вы можете наложить его, потратив 2 единицы чародейства или ячейку заклинания. Если вы накладываете его с использованием единиц чародейства, вы можете видеть сквозь эту тьму, созданную заклинанием."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "СИЛА МОГИЛЫ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение теневой магии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ваше существование в сумеречном состоянии между жизнью и смертью затрудняет ваше поражение. Когда урон уменьшает ваши хиты до 0, вы можете совершить спасбросок Харизмы (Сл 5 + полученный урон)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "В случае успеха вы остаётесь с 1 хитом, вместо того чтобы упасть без сознания. Вы не можете использовать это умение, если ваши хиты уменьшены до 0 от урона излучением или уроном от критического удара."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "После успешного спасброска вы не можете использовать это умение вновь до окончания продолжительного отдыха."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": []
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ГОНЧАЯ ДУРНОГО ЗНАМЕНИЯ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение теневой магии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете возможность вызвать воющее существо тьмы, чтобы преследовать своих врагов. Бонусным действием вы можете потратить 3 единицы чародейства, чтобы магически вызвать"
+            },
+            {
+              "type": "link",
+              "text": "гончую дурного знамения [hound of ill omen]",
+              "href": "/bestiary/2017-hound_of_ill_omen/",
+              "targetType": "bestiary",
+              "targetId": "2017",
+              "targetSlug": "hound_of_ill_omen"
+            },
+            {
+              "type": "text",
+              "text": ", нацеливая её на одно существо, которое вы можете видеть в радиусе 120 футов. Гончая использует параметры"
+            },
+            {
+              "type": "link",
+              "text": "лютого волка [dire wolf]",
+              "href": "/bestiary/297-dire_wolf/",
+              "targetType": "bestiary",
+              "targetId": "297",
+              "targetSlug": "dire_wolf"
+            },
+            {
+              "type": "text",
+              "text": ", со следующими изменениями:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Гончая Среднего размера, не Большого, и она считается монстром, а не зверем."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Она появляется с количеством временных хитов, равных половине вашего уровня чародея."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Она может перемещаться через других существ и объекты, как если бы они были"
+              },
+              {
+                "type": "text",
+                "text": "труднопроходимой местностью"
+              },
+              {
+                "type": "text",
+                "text": ". Гончая получает 5 урона силовым полем, если она завершает свой ход внутри объекта."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "В начале своего хода гончая автоматически узнаёт местоположение своей цели. Если та была спрятанной, то перестаёт быть спрятанной от гончей."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Гончая появляется в свободном пространстве по вашему выбору в пределах 30 футов от цели. Совершите бросок инициативы для гончей. В свой ход она может двигаться только к своей цели по самому прямому маршруту, и она может использовать своё действие только для атаки своей цели. Гончая может совершать провоцированные атаки, но только против своей цели. Кроме того, в то время как гончая находится в пределах 5 футов от цели, цель совершает с помехой спасброски против любого заклинания, которое вы накладываете. Гончая исчезает, если её хиты уменьшаются до 0, если хиты её цели уменьшены до 0 или спустя 5 минут."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ХОЖДЕНИЕ ПО ТЕНЯМ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "14-й уровень, умение теневой магии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете способность переходить из одной тени в другую. Когда вы находитесь в"
+            },
+            {
+              "type": "text",
+              "text": "тусклом свете"
+            },
+            {
+              "type": "text",
+              "text": "или"
+            },
+            {
+              "type": "text",
+              "text": "темноте"
+            },
+            {
+              "type": "text",
+              "text": "вы можете бонусным действием волшебным образом телепортироваться на расстояние до 120 футов в свободное пространство, которое вы можете видеть, которое также находится в"
+            },
+            {
+              "type": "text",
+              "text": "тусклом свете"
+            },
+            {
+              "type": "text",
+              "text": "или"
+            },
+            {
+              "type": "text",
+              "text": "темноте"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "МРАЧНАЯ ФОРМА"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "18-й уровень, умение теневой магии"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете бонусным действием потратить 6 единиц чародейства, чтобы волшебным образом превратить себя в теневую форму. В этой форме вы получаете сопротивление всему урону, кроме урона силовым полем и излучением, и вы можете перемещаться через других существ и объекты, как если бы они были"
+            },
+            {
+              "type": "text",
+              "text": "труднопроходимой местностью"
+            },
+            {
+              "type": "text",
+              "text": ". Вы получаете 5 урона силовым полем, если завершаете свой ход внутри объекта. Вы остаетесь в этой форме на 1 минуту."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Эффект заканчивается раньше, если вы становитесь"
+            },
+            {
+              "type": "text",
+              "text": "недееспособны"
+            },
+            {
+              "type": "text",
+              "text": ", умираете или если вы отмените его бонусным действием."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "storm",
+      "name": "Штормовое колдовство",
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Источник: «Xanathar’s Guide to Everything»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ваша врождённая магия исходит от силы стихии воздуха. Многие с этой силой могут отследить свою магию до около-смертных переживаний, вызванных Великим Дождём, но, возможно, вы родились во время бушующего шторма, настолько сильного, что народ всё ещё рассказывает истории о нём, или ваша родословная может включать влияние могущественных воздушных существ, таких как джинн. В любом случае штормовая магия пронизывает само ваше существование."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Штормовые чародеи — бесценные члены экипажа корабля. Их магия позволяет им контролировать ветер и погоду в непосредственной близости от себя. Их способности также полезны в отражении нападений сахуагинов, пиратов и других водных угроз."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "УСТА ВЕТРА"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение штормового колдовства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Тайная магия, которой вы повелеваете, наполняется стихией воздуха. Вы можете говорить, читать и писать на Первичном. Знание этого языка позволяет понимать и быть понятым теми, кто говорит на его диалектах: Акван, Ауран, Игнан и Терран."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "БУРНАЯ МАГИЯ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение штормового колдовства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете в свой ход бонусным действием заставить завихряющиеся порывы стихийного ветра на мгновение окружить вас прямо перед тем или прямо после того, как вы накладываете заклинание 1-го уровня или выше. Это позволяет вам отлететь на расстояние до 10 футов, не провоцируя атак."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "СЕРДЦЕ ШТОРМА"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение штормового колдовства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете сопротивление урону звуком и электричеством."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Кроме того, каждый раз, когда вы начинаете накладывать заклинание 1-го уровня или выше, которое наносит урон звуком или электричеством, из вас выплёскивается магия шторма. Этот всплеск направлен в существ по вашему выбору, которых вы можете видеть в пределах 10 футов от вас, и наносит урон звуком или электричеством (выбирайте каждый раз, когда эта способность активируется), равный половине вашего уровня чародея."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "УПРАВЛЕНИЕ ШТОРМОМ"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение штормового колдовства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете возможность контролировать погоду вокруг вас. Если идёт дождь, вы можете действием заставить дождь прекратиться в сфере с радиусом 20 футов с центром на вас."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете окончить этот эффект бонусным действием. Если ветрено, вы можете каждый раунд бонусным действием выбирать направление ветра в сфере с радиусом 100 футов с центром на вас. Ветер дует в этом направлении до конца вашего следующего хода. Это умение не изменяет скорость ветра."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ЯРОСТЬ ШТОРМА"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "14-й уровень, умение штормового колдовства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда по вам попадают рукопашной атакой, вы можете реакцией нанести атакующему урон электричеством. Урон равен вашему уровню чародея. Атакующий должен также совершить спасбросок Силы против Сл вашего спасброска от заклинаний. При провале атакующего отталкивает по прямой линии на расстояние до 20 футов от вас."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "ДУША ВЕТРА"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "18-й уровень, умение штормового колдовства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете иммунитет к урону звуком и электричеством."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы также получаете магическую скорость полёта 60 футов. Действием вы можете уменьшить скорость полёта до 30 футов на 1 час и выбрать несколько существ в пределах 30 футов от себя, в количестве, равном 3 + ваш модификатор Харизмы. Выбранные существа получают магическую скорость полёта 30 футов на 1 час."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Как только вы уменьшите скорость полёта таким образом, вы не сможете сделать это снова, до окончания короткого или продолжительного отдыха."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aberrant-mind",
+      "name": "Аберрантный разум",
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Источник: «Tasha’‎s Cauldron of Everything»"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Чужеродное влияние оплело своими щупальцами ваш разум, даруя вам псионическую силу. Теперь вы можете касаться разумов других существ с помощью этой силы и изменять мир вокруг себя, используя её для управления магической энергией в мультивселенной. Будет ли эта сила сиять в вас, как маяк надежды для других? Или вы станете источником ужаса для тех, кто почувствует укол вашего разума и станет свидетелем странных проявлений вашей мощи?"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Как чародей с аберрантным разумом, вы сами решаете, как вы приобрели свои силы. Вы с ними родились? Или какое-то событие позже в жизни заставило вас засиять в псионическом пробуждении? Обратитесь к таблице «Аберрантное происхождение» для возможного объяснения ваших сил."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Аберрантное происхождение"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "к6"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Происхождение"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "1"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "На вас оказало влияние искажение Дальнего Предела. Вы убеждены, что прямо сейчас на вас растёт щупальце, но никто его не видит."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "2"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Психический ветер с Астрального плана принёс вам псионическую энергию. Когда вы используете свои силы, вокруг вас сверкают слабые искорки."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "3"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Когда-то на вас оказали влияние доминирующие силы аболета, и с тех пор в вашем разуме осталась психическая заноза."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "4"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вам имплантировали головастика свежевателей разума, но цереморфоз так и не завершился. И теперь его псионическая сила — ваша. Когда вы используете её, ваша плоть блестит странной слизью."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "5"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В детстве у вас был воображаемый друг, похожий на фламфа или странное существо, напоминающее утконоса. В один из дней он одарил вас псионическими силами, которые в конечном итоге оказались не такими уж воображаемыми."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "6"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ваши кошмары шепчут вам правду: ваши псионические способности не принадлежат вам. Вы черпаете их из своего паразитического близнеца!"
+                }
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Псионические заклинания"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение аберрантного разума"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда вы достигаете определённого уровня, вы узнаёте новые заклинания в этом классе, как показано в таблице «Псионические заклинания». Для вас они считаются заклинаниями чародея, однако они не учитываются в общем количестве заклинаний, которые вы знаете."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Каждый раз, когда вы получаете уровень в этом классе, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть из школы Прорицания или Очарования из списка заклинаний чародея, колдуна или волшебника."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Псионические заклинания"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "Уровень"
+              },
+              {
+                "type": "text",
+                "text": "чародея"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Заклинания"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "1"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "диссонирующий шёпот [dissonant whisper]",
+                  "href": "/spells/56-dissonant_whisper/",
+                  "targetType": "spell",
+                  "targetId": "56",
+                  "targetSlug": "dissonant_whisper"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "расщепление разума [mind sliver]",
+                  "href": "/spells/3050-mind_sliver/",
+                  "targetType": "spell",
+                  "targetId": "3050",
+                  "targetSlug": "mind_sliver"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "руки Хадара [arms of Hadar]",
+                  "href": "/spells/305-arms_of_hadar/",
+                  "targetType": "spell",
+                  "targetId": "305",
+                  "targetSlug": "arms_of_hadar"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "3"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "обнаружение мыслей [detect thoughts]",
+                  "href": "/spells/196-detect_thoughts/",
+                  "targetType": "spell",
+                  "targetId": "196",
+                  "targetSlug": "detect_thoughts"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "умиротворение [calm emotions]",
+                  "href": "/spells/102-calm_emotions/",
+                  "targetType": "spell",
+                  "targetId": "102",
+                  "targetSlug": "calm_emotions"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "5"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "голод Хадара [hunger of Hadar]",
+                  "href": "/spells/47-hunger_of_hadar/",
+                  "targetType": "spell",
+                  "targetId": "47",
+                  "targetSlug": "hunger_of_hadar"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "послание [sending]",
+                  "href": "/spells/256-sending/",
+                  "targetType": "spell",
+                  "targetId": "256",
+                  "targetSlug": "sending"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "7"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "призыв духа аберрации [summon aberration]",
+                  "href": "/spells/3062-summon_aberration/",
+                  "targetType": "spell",
+                  "targetId": "3062",
+                  "targetSlug": "summon_aberration"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "Эвардовы чёрные щупальца [Evard’s black tentacles]",
+                  "href": "/spells/67-evard_s_black_tentackles/",
+                  "targetType": "spell",
+                  "targetId": "67",
+                  "targetSlug": "evard_s_black_tentackles"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "9"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "ментальная связь Рэри [Rary’s telepathic bond]",
+                  "href": "/spells/160-rary_s_telepathic_bond/",
+                  "targetType": "spell",
+                  "targetId": "160",
+                  "targetSlug": "rary_s_telepathic_bond"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "телекинез [telekinesis]",
+                  "href": "/spells/344-telekinesis/",
+                  "targetType": "spell",
+                  "targetId": "344",
+                  "targetSlug": "telekinesis"
+                }
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Телепатическая речь"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение аберрантного разума"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете установить телепатическую связь между своим разумом и разумом другого существа. Бонусным действием выберите одно существо, которое вы можете видеть в пределах 30 футов. Вы и выбранное существо можете говорить телепатически друг с другом, пока находитесь в пределах количества миль друг от друга, равному вашему модификатору Харизмы (минимум 1 миля). Чтобы вы могли понимать друг друга, каждый из вас должен мысленно говорить на языке, знакомом другому."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Телепатическая связь длится в течение количества минут, равному вашему уровню чародея. Она заканчивается раньше, если вы становитесь"
+            },
+            {
+              "type": "text",
+              "text": "недееспособны"
+            },
+            {
+              "type": "text",
+              "text": "или умираете, или если вы используете это умение, чтобы сформировать связь с другим существом."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Псионическое чародейство"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение аберрантного разума"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда вы накладываете любое заклинание 1-го уровня или выше, используя своё умение «Псионические заклинания», вы можете наложить его, израсходовав ячейку заклинаний как обычно или потратив количество единиц чародейства, равное уровню заклинания. Если вы накладываете заклинание, используя единицы чародейства, то оно не требует ни вербальных, ни соматического компонентов, а также материальных компонентов, если они не расходуются заклинанием."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Психическая защита"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение аберрантного разума"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете сопротивление урону психической энергией и совершаете с преимуществом спасброски против"
+            },
+            {
+              "type": "text",
+              "text": "очарования"
+            },
+            {
+              "type": "text",
+              "text": "или"
+            },
+            {
+              "type": "text",
+              "text": "испуга"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Откровение во плоти"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "14-й уровень, умение аберрантного разума"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете высвободить аберрантную истину, скрытую внутри вас. Бонусным действием вы можете потратить 1 или более единиц чародейства, чтобы волшебным образом преобразовать свое тело на 10 минут. За каждую потраченную единицу чародейства вы можете получить одно из следующих преимуществ по вашему выбору, действие которого длится до окончания трансформации:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Вы можете увидеть любое невидимое существо в радиусе 60 футов, если оно не находится за"
+              },
+              {
+                "type": "text",
+                "text": "полным укрытием"
+              },
+              {
+                "type": "text",
+                "text": ". Ваши глаза также становятся чёрными или превращаются в извивающиеся сенсорные усики."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Вы получаете скорость полёта, равную вашей скорости ходьбы, и можете парить. Когда вы летите, ваша кожа блестит от слизи или сияет потусторонним светом."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Вы получаете скорость плавания, равную удвоенной скорости ходьбы, и можете дышать под водой. Кроме того, из вашей шеи вырастают жабры, либо они выходят веером из-за ваших ушей, ваши пальцы становятся перепончатыми, или у вас вырастают извивающиеся реснички, которые прорастают через одежду."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Ваше тело, вместе с любым снаряжением, которое вы носите или несете, становится скользким и податливым. Вы можете проходить через любое узкое пространство до 1 дюйма без протискивания и можете потратить 5 футов передвижения, чтобы вырваться из немагических пут или захвата."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Искажающий взрыв"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "18-й уровень, умение аберрантного разума"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете высвободить свою аберрантную силу в виде искривляющей пространство аномалии. Действием вы можете телепортироваться в свободное пространство, которое вы можете видеть в пределах 120 футов. Сразу же после того, как вы исчезнете, каждое существо в пределах 30 футов от места, где вы находились, должно совершить спасбросок Силы против Сл ваших заклинаний. В случае провала существо получает 3к10 урона силовым полем и притягивается по прямой к месту, где вы находились, останавливаясь в свободном пространстве как можно ближе к вашей прежней позиции. В случае успеха существо получает вдвое меньше урона и не притягивается."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда вы используете действие подобным образом, вы не сможете сделать это вновь, пока не закончите продолжительный отдых или не потратите 5 единиц чародейства на повторное использование этого умения."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clockwork-soul",
+      "name": "Заводная душа",
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Источник: «Tasha’‎s Cauldron of Everything»"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "С помощью магии вас наполнили силами космического порядка. Эта сила проистекает из Механуса или подобного ему царства — плана существования, сформированного исключительно соображениями эффективности, как у часового механизма. Вы или кто-то из вашего рода могли быть вовлечены в махинации модронов — существ порядка, населяющих Механус. Возможно, кто-то из ваших предков даже принимал участие в Великом Марше модронов. Каким бы ни было её происхождение внутри вас, сила порядка может показаться странной другим, но для вас это часть огромной и славной системы."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Заводная магия"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение заводной души"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда вы достигаете определённого уровня, вы узнаёте новые заклинания в этом классе, как показано в таблице «Заводные заклинания». Для вас они считаются заклинаниями чародея, однако они не учитываются в общем количестве заклинаний, которые вы знаете."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Каждый раз, когда вы получаете уровень в этом классе, вы можете заменить одно заклинание, полученное от этого умения, другим заклинанием того же уровня. Новое заклинание должно быть из школы Ограждения или Преобразования из списка заклинаний чародея, колдуна или волшебника."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Заводные заклинания"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "Уровень"
+              },
+              {
+                "type": "text",
+                "text": "чародея"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Заклинания"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "1"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "защита от зла и добра [protection from evil and good]",
+                  "href": "/spells/99-protection_from_evil_and_good/",
+                  "targetType": "spell",
+                  "targetId": "99",
+                  "targetSlug": "protection_from_evil_and_good"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "сигнал тревоги [alarm]",
+                  "href": "/spells/313-alarm/",
+                  "targetType": "spell",
+                  "targetId": "313",
+                  "targetSlug": "alarm"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "3"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "малое восстановление [lesser restoration]",
+                  "href": "/spells/155-lesser_restoration/",
+                  "targetType": "spell",
+                  "targetId": "155",
+                  "targetSlug": "lesser_restoration"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "подмога [aid]",
+                  "href": "/spells/236-aid/",
+                  "targetType": "spell",
+                  "targetId": "236",
+                  "targetSlug": "aid"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "5"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "защита от энергии [protection from energy]",
+                  "href": "/spells/106-protection_from_energy/",
+                  "targetType": "spell",
+                  "targetId": "106",
+                  "targetSlug": "protection_from_energy"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "рассеивание магии [dispel magic]",
+                  "href": "/spells/301-dispel_magic/",
+                  "targetType": "spell",
+                  "targetId": "301",
+                  "targetSlug": "dispel_magic"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "7"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "призыв духа конструкта [summon construct]",
+                  "href": "/spells/3065-summon_construct/",
+                  "targetType": "spell",
+                  "targetId": "3065",
+                  "targetSlug": "summon_construct"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "свобода перемещения [freedom of movement]",
+                  "href": "/spells/308-freedom_of_movement/",
+                  "targetType": "spell",
+                  "targetId": "308",
+                  "targetSlug": "freedom_of_movement"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "9"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "высшее восстановление [greater restoration]",
+                  "href": "/spells/39-greater_restoration/",
+                  "targetType": "spell",
+                  "targetId": "39",
+                  "targetSlug": "greater_restoration"
+                },
+                {
+                  "type": "text",
+                  "text": ","
+                },
+                {
+                  "type": "link",
+                  "text": "силовая стена [wall of force]",
+                  "href": "/spells/314-wall_of_force/",
+                  "targetType": "spell",
+                  "targetId": "314",
+                  "targetSlug": "wall_of_force"
+                }
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Кроме того, обратитесь к таблице «Проявления порядка» и выберите или случайным образом определите способ проявления вашей связи с порядком в момент накладывания любого из ваших заклинаний чародея."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Проявления порядка"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "к6"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Проявление"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "1"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Позади вас парят призрачные шестерёнки."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "2"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "В ваших глазах вращаются стрелки часов."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "3"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ваша кожа сияет медным блеском."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "4"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ваше тело покрывают парящие уравнения и геометрические объекты."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "5"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Ваша заклинательная фокусировка временно принимает форму Крошечного часового механизма."
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "6"
+                }
+              ],
+              [
+                {
+                  "type": "text",
+                  "text": "Вы и те, на кого воздействует ваша магия, слышат тиканье механизмов или звон часов."
+                }
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Восстановление баланса"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение заводной души"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ваша связь с планом абсолютного порядка позволяет сгладить моменты хаоса. Когда существо, которое вы можете видеть в пределах 60 футов, собирается совершить бросок к20 с преимуществом или помехой, вы можете реакцией заставить его совершить этот бросок без преимущества и помехи."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете использовать это умение количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования после окончания продолжительного отдыха."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Бастион закона"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение заводной души"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете подключиться к великому уравнению существования, чтобы наделить существо мерцающим щитом порядка. Действием вы можете потратить от 1 до 5 единиц чародейства, чтобы создать магическую защиту вокруг себя или другого существа, которое вы можете видеть в пределах 30 футов. Защита длится до тех пор, пока вы не окончите продолжительный отдых или пока вы не используете это умение снова."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Щит представлен количеством к8, равным количеству единиц чародейства, потраченных на его создание. Когда охраняемое существо получает урон, оно может потратить некоторое количество этих костей, уменьшив получаемый урон на результат броска потраченных костей."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Медитация порядка"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "14-й уровень, умение заводной души"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете возможность настроить своё сознание на бесконечные вычисления Механуса. Бонусным действием вы можете войти в это состояние на 1 минуту. В течение этого времени броски атаки против вас не могут совершаться с преимуществом, и всякий раз, когда вы совершаете бросок атаки, проверку характеристики или спасбросок, вы можете рассматривать бросок «9 »или ниже на к20 как «10»."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда вы используете бонусное действие подобным образом, вы не сможете сделать это вновь, пока не закончите продолжительный отдых или не потратите 5 единиц чародейства на повторное использование этого умения."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Заводная кавалькада"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "18-й уровень, умение заводной души"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы призываете духов порядка для устранения беспорядка вокруг себя. Действием вы вызываете духов в кубе с длиной ребра в 30 футов с центром на вас. Духи выглядят как модроны или другие конструкты по вашему выбору. Духи неосязаемы и неуязвимы, и они создают нижеперечисленные эффекты внутри куба, прежде чем исчезнуть:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Духи восстанавливают до 100 хитов, распределённых по вашему выбору между любым количеством существ по вашему выбору в кубе."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Любые повреждённые объекты, полностью находящиеся в кубе, мгновенно ремонтируются."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "На выбранных вами существах и объектах в кубе заканчиваются эффекты всех заклинаний 6-го уровня и ниже"
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Когда вы используете действие подобным образом, вы не сможете сделать это вновь, пока не закончите продолжительный отдых или не потратите 7 единиц чародейства на повторное использование этого умения."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lunar-sorcery",
+      "name": "Лунное чародейство",
+      "content": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Источник: «Dragonlance: Shadow of the Dragon Queen»"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Во многих мирах луна является почитаемым небесным телом, обладающим магическими свойствами. На Кринне боги магии связаны с тремя лунами мира. В мире Торил богиня Селунэ использует свет луны для борьбы с тьмой. В Эберроне ученые Драконического пророчества расшифровывают древние тайны по растущим и убывающим двенадцати лунам этого мира."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы или кто-то из вашего рода подвергся воздействию концентрированной магии луны (или лун) вашего мира, что наделило вас лунной магией. Возможно, ваш предок участвовал в друидическом ритуале, связанном с затмением, или мистический осколок луны разбился рядом с вами. Как бы ни проявлялась ваша магия, ваша связь с луной очевидна, когда вы накладываете заклинания чародея — возможно, ваши зрачки светятся цветом луны из вашего мира, или вокруг вас вращаются призрачные образы лунных фаз, или возникают какие-то другие эффекты."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Лунное воплощение"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение лунного чародейства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы изучаете дополнительные заклинания, когда достигаете определённых уровней в этом классе согласно таблице «Лунные заклинания». Каждое заклинание считается заклинанием чародея для вас, однако оно не учитывается в общем списке заклинаний чародея, известных вам."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "Лунные заклинания"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            [
+              {
+                "type": "text",
+                "text": "Уровень"
+              },
+              {
+                "type": "text",
+                "text": "Чародея"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Полнолуние"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Новолуние"
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Полумесяц"
+              }
+            ]
+          ],
+          "rows": [
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "1-й"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "щит [shield]",
+                  "href": "/spells/70-shield/",
+                  "targetType": "spell",
+                  "targetId": "70",
+                  "targetSlug": "shield"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "луч болезни [ray of sickness]",
+                  "href": "/spells/147-ray_of_sickness/",
+                  "targetType": "spell",
+                  "targetId": "147",
+                  "targetSlug": "ray_of_sickness"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "сверкающие брызги [color spray]",
+                  "href": "/spells/306-color_spray/",
+                  "targetType": "spell",
+                  "targetId": "306",
+                  "targetSlug": "color_spray"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "3-й"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "малое восстановление [lesser restoration]",
+                  "href": "/spells/155-lesser_restoration/",
+                  "targetType": "spell",
+                  "targetId": "155",
+                  "targetSlug": "lesser_restoration"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "глухота/слепота [blindness/deafness]",
+                  "href": "/spells/45-blindness_deafness/",
+                  "targetType": "spell",
+                  "targetId": "45",
+                  "targetSlug": "blindness_deafness"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "смена обличья [alter self]",
+                  "href": "/spells/323-alter_self/",
+                  "targetType": "spell",
+                  "targetId": "323",
+                  "targetSlug": "alter_self"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "5-й"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "рассеивание магии [dispel magic]",
+                  "href": "/spells/301-dispel_magic/",
+                  "targetType": "spell",
+                  "targetId": "301",
+                  "targetSlug": "dispel_magic"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "прикосновение вампира [vampiric touch]",
+                  "href": "/spells/277-vampiric_touch/",
+                  "targetType": "spell",
+                  "targetId": "277",
+                  "targetSlug": "vampiric_touch"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "призрачный скакун [phantom steed]",
+                  "href": "/spells/279-phantom_steed/",
+                  "targetType": "spell",
+                  "targetId": "279",
+                  "targetSlug": "phantom_steed"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "7-й"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "защита от смерти [death ward]",
+                  "href": "/spells/104-death_ward/",
+                  "targetType": "spell",
+                  "targetId": "104",
+                  "targetSlug": "death_ward"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "смятение [confusion]",
+                  "href": "/spells/325-confusion/",
+                  "targetType": "spell",
+                  "targetId": "325",
+                  "targetSlug": "confusion"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "мираж [hallucinatory terrain]",
+                  "href": "/spells/167-hallucinatory_terrain/",
+                  "targetType": "spell",
+                  "targetId": "167",
+                  "targetSlug": "hallucinatory_terrain"
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "type": "text",
+                  "text": "9-й"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "ментальная связь Рэри [rary's telepathic bond]",
+                  "href": "/spells/160-rary_s_telepathic_bond/",
+                  "targetType": "spell",
+                  "targetId": "160",
+                  "targetSlug": "rary_s_telepathic_bond"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "удержание чудовища [hold monster]",
+                  "href": "/spells/110-hold_monster/",
+                  "targetType": "spell",
+                  "targetId": "110",
+                  "targetSlug": "hold_monster"
+                }
+              ],
+              [
+                {
+                  "type": "link",
+                  "text": "фальшивый двойник [mislead]",
+                  "href": "/spells/93-mislead/",
+                  "targetType": "spell",
+                  "targetId": "93",
+                  "targetSlug": "mislead"
+                }
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Каждый раз, когда вы заканчиваете продолжительный отдых, вы можете выбрать, какая фаза луны будет питать вашу магию: Полнолуние, Новолуние или Полумесяц. Пока вы находитесь в выбранной фазе, вы можете наложить заклинание 1-го уровня соответствующей фазы из таблицы «Лунные Заклинания» один раз, не тратя ячейки заклинаний. Наложив заклинание таким образом, вы больше не сможете сделать это повторно до окончания продолжительного отдыха."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Лунный Огонь"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "1-й уровень, умение лунного чародейства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы можете призвать ослепляющий свет луны по своему зову. Вы изучаете заговор"
+            },
+            {
+              "type": "link",
+              "text": "священное пламя [sacred flame]",
+              "href": "/spells/311-sacred_flame/",
+              "targetType": "spell",
+              "targetId": "311",
+              "targetSlug": "sacred_flame"
+            },
+            {
+              "type": "text",
+              "text": ", который не учитывается в общем списке заговоров чародея, известных вам. Когда вы накладываете его, вы можете сделать целью одно существо как обычно или двух существ, которые находятся в пределах дистанции на расстоянии 5 футов друг от друга."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Лунные Дары"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение лунного чародейства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Фазы вашего Лунного Воплощения воздействуют на вашу метамагию. Каждая фаза луны связана с заклинаниями указанных ниже школ:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Полнолуние."
+              },
+              {
+                "type": "text",
+                "text": "Заклинания школ Ограждения и Прорицания."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Новолуние"
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "text",
+                "text": "Заклинания школ Очарования и Некромантии."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Полумесяц"
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "text",
+                "text": "Заклинания школ Иллюзий и Преобразования."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Каждый раз, когда вы используете «Метамагию» на заклинание школы, связанной с фазой вашего Лунного Воплощения, в которой вы находитесь сейчас, вы можете снизить количество потраченных единиц чародейства на 1 (минимум 0). Вы можете снизить количество единиц чародейства для вашей Метамагии количество раз, равное вашему бонусу мастерства. Вы восстанавливаете все потраченные использования после завершения продолжительного отдыха."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Убывание И Рост"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "6-й уровень, умение лунного чародейства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Вы получаете усиленный контроль над фазами вашей лунной магии. Бонусным действием вы можете потратить 1 единицу чародейства, чтобы сменить фазу вашего Лунного Воплощения на другую."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Теперь вы можете наложить одно заклинание 1-го уровня из каждой фазы луны таблицы «Лунные Заклинания» один раз, не тратя ячейки заклинания, при условии, что ваша текущая фаза совпадает с фазой заклинания лунной фазы. Если вы наложили заклинание лунной фазы таким образом, вы больше не сможете сделать это повторно до окончания продолжительного отдыха."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Лунное Усиление"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "14-й уровень, умение лунного чародейства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Сила луны наполняет вас. Каждый раз, когда вы выбираете фазу луны, влияющую на вашу магию, вы также получаете следующие преимущества, связанные с конкретной фазой:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Полнолуние"
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "text",
+                "text": "Вы можете бонусным действием излучать"
+              },
+              {
+                "type": "text",
+                "text": "яркий свет"
+              },
+              {
+                "type": "text",
+                "text": "в пределах 10 футов и"
+              },
+              {
+                "type": "text",
+                "text": "тусклый свет"
+              },
+              {
+                "type": "text",
+                "text": "в пределах дополнительных 10 футов или погасить свет. Дополнительно вы и существа по вашему выбору совершают с преимуществом проверки Интеллекта ("
+              },
+              {
+                "type": "text",
+                "text": "Расследование"
+              },
+              {
+                "type": "text",
+                "text": ") и Мудрости ("
+              },
+              {
+                "type": "text",
+                "text": "Восприятие"
+              },
+              {
+                "type": "text",
+                "text": "), пока они находятся в пределах яркого света, излучаемого вами."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Новолуние"
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "text",
+                "text": "Вы совершаете с преимуществом проверки Ловкости ("
+              },
+              {
+                "type": "text",
+                "text": "Скрытность"
+              },
+              {
+                "type": "text",
+                "text": "). Дополнительно, пока вы находитесь во тьме, броски атаки по вам совершаются с помехой."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Полумесяц"
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "text",
+                "text": "Вы получаете сопротивление урону некротической энергией и урону излучением."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "children": [
+            {
+              "type": "text",
+              "text": "Лунный Феномен"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "18-й уровень, умение лунного чародейства"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Бонусным действием вы можете задействовать особые силы, даруемые фазой вашего Лунного Воплощения. Альтернативно, в рамках бонусного действия, которое вы предпринимаете для изменения своей фазы луны с помощью умения «Убывание и рост», вы можете немедленно использовать силу лунной фазы, в которую вы входите:"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            [
+              {
+                "type": "text",
+                "text": "Полнолуние"
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "text",
+                "text": "На мгновение, вы излучаете очень яркий лунный свет. Каждое существо по вашему выбору в пределах 30 футов от вас должно преуспеть в спасброске Телосложения против Сл ваших заклинаний, иначе станет"
+              },
+              {
+                "type": "text",
+                "text": "ослеплённым"
+              },
+              {
+                "type": "text",
+                "text": "до конца его следующего хода. Дополнительно одно существо по вашему выбору в этой области восстанавливает 3к8 хитов."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Новолуние"
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "text",
+                "text": "На мгновение, вы излучаете поток угнетающего мрака. Каждое существо по вашему выбору в пределах 30 футов должно преуспеть в спасброске Ловкости против Сл ваших заклинаний, иначе получит 3к10 урона некротической энергией и его скорость станет равна 0 до конца его следующего хода. Дополнительно вы становитесь"
+              },
+              {
+                "type": "text",
+                "text": "невидимым"
+              },
+              {
+                "type": "text",
+                "text": "до конца вашего следующего хода или до следующего момента сразу после того, как вы совершите бросок атаки или наложите заклинание."
+              }
+            ],
+            [
+              {
+                "type": "text",
+                "text": "Полумесяц"
+              },
+              {
+                "type": "text",
+                "text": "."
+              },
+              {
+                "type": "text",
+                "text": "Вы двигаетесь на границе между светом и тьмой. Вы можете магическим образом телепортироваться в свободное пространство, которое вы можете видеть на расстоянии 60 футов. Вы можете взять с собой одно согласное существо, которое вы видите в пределах 5 футов от себя. Это существо телепортируется в свободное пространство по вашему выбору, которое вы можете видеть в пределах 5 футов от своего места назначения. Дополнительно вы и это существо также получаете сопротивление ко всем видам урона до начала вашего следующего хода."
+              }
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Использовав одно из этих бонусных действий, вы больше не сможете использовать его повторно, пока не закончите продолжительный отдых или не потратите 5 единиц чародейства для его повторного применения."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
