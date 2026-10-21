@@ -1,11 +1,50 @@
-export interface DndClass {
+export interface DndSource {
+  id: string
+  name: string
+}
+
+export type DndEntityType =
+  | 'class'
+  | 'subclass'
+  | 'spell'
+  | 'equipment'
+  | 'species'
+  | 'background'
+  | 'feat'
+  | 'other'
+
+export interface DndEntity {
   id: string
   name: string
   source?: string
+}
+
+export type DndSourceCategory =
+  | 'core'
+  | 'sourcebook'
+  | 'campaign'
+  | 'supplement'
+  | 'homebrew'
+
+export interface DndSource {
+  id: string
+  name: string
+  shortName?: string
+  localizedName?: string
+  category: DndSourceCategory
+  url?: string
+}
+
+export interface DndReference {
+  type: DndEntityType
+  id: string
+  name?: string
+}
+
+export interface DndClass extends DndEntity {
   levels: ClassLevel[]
   features: ClassFeature[]
-  origins: ClassOrigin[]
-  archetypes: ClassArchetype[]
+  subclasses: ClassSubclass[]
 }
 
 export interface ClassLevelColumn {
@@ -17,13 +56,11 @@ export interface ClassLevelColumn {
 export interface ClassLevel {
   level: number
   proficiencyBonus: number | null
-
   columns: ClassLevelColumn[]
-
   spellSlots: Record<string, number | null>
-
   features: string[]
 }
+
 export interface ClassFeature {
   id: string
   name: string
@@ -32,15 +69,8 @@ export interface ClassFeature {
   content: ContentNode[]
 }
 
-export interface ClassOrigin {
-  id: string
-  name: string
-  content: ContentNode[]
-}
-
-export interface ClassArchetype {
-  id: string
-  name: string
+export interface ClassSubclass extends DndEntity {
+  features: ClassFeature[]
   content: ContentNode[]
 }
 
@@ -84,14 +114,7 @@ export interface LinkNode {
   type: 'link'
   text: string
   href: string
-  targetType: LinkTargetType
+  targetType: DndEntityType | 'homebrew' | 'other'
   targetId?: string
   targetSlug?: string
 }
-
-export type LinkTargetType =
-  | 'spell'
-  | 'bestiary'
-  | 'homebrew-spell'
-  | 'homebrew'
-  | 'other'

@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "dndsu:fetch": "tsx tools/dndsu/fetch-sorcerer.ts",
     "dndsu:fetch:ranger": "tsx tools/dndsu/fetch-ranger.ts",
-    "dndsu:parse": "tsx tools/dndsu/parse-class.ts"
+    "dndsu:parse": "tsx tools/dndsu/parse-class.ts",
+    "dndsu:fetch:sources": "tsx tools/dndsu/fetch-sources.ts",
+    "dndsu:parse:sources": "tsx tools/dndsu/parse-sources.ts"
   },
   "dependencies": {
     "dexie": "^4.4.5",

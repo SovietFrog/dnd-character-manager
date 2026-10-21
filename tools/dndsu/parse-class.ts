@@ -2,6 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 import { parseClass } from './parser'
+import { findSource } from '../../src/services/source-service'
 
 const CLASS_ID = process.argv[2]
 
@@ -43,6 +44,7 @@ const html = fs.readFileSync(
 const dndClass = parseClass({
   id: CLASS_ID,
   html,
+  
 })
 
 fs.mkdirSync(
@@ -66,8 +68,7 @@ console.log(`ID: ${dndClass.id}`)
 console.log(`Класс: ${dndClass.name}`)
 console.log(`Уровней: ${dndClass.levels.length}`)
 console.log(`Умений: ${dndClass.features.length}`)
-console.log(`Происхождений: ${dndClass.origins.length}`)
-console.log(`Архетипов: ${dndClass.archetypes.length}`)
+console.log(`Подклассов: ${dndClass.subclasses.length}`)
 console.log('')
 console.log(`JSON: ${OUTPUT_FILE}`)
 console.log('')

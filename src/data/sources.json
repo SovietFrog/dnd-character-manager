@@ -1,0 +1,395 @@
+[
+  {
+    "id": "player-s-handbook",
+    "name": "Player's handbook",
+    "shortName": "PH",
+    "localizedName": "Книга Игрока, PH (2014)",
+    "category": "core"
+  },
+  {
+    "id": "dungeon-master-s-guide",
+    "name": "Dungeon master's guide",
+    "shortName": "DMG",
+    "localizedName": "Руководство Мастера, DMG (2014)",
+    "category": "core"
+  },
+  {
+    "id": "monster-manual",
+    "name": "Monster manual",
+    "shortName": "MM",
+    "localizedName": "Бестиарий, MM (2014)",
+    "category": "core"
+  },
+  {
+    "id": "sword-coast-adventurer-s-guide",
+    "name": "Sword Coast Adventurer's Guide",
+    "shortName": "SCAG",
+    "localizedName": "Руководство приключенца по Побережью Мечей, SCAG (2015)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "volo-s-guide-to-monsters-legacy",
+    "name": "Volo's guide to monsters (legacy)",
+    "shortName": "VGM",
+    "localizedName": "Справочник Воло по Монстрам, VGM (2016)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "xanathar-s-guide-to-everything",
+    "name": "Xanathar's Guide to Everything",
+    "shortName": "XGE",
+    "localizedName": "Руководство Занатара обо всём, XGE (2017)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "mordenkainen-s-tome-of-foes-legacy",
+    "name": "Mordenkainen's Tome of Foes (legacy)",
+    "shortName": "MTF",
+    "localizedName": "Том Морденкайнена о Врагах, MTF (2018)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "guildmasters-guide-to-ravnica",
+    "name": "Guildmasters' guide to Ravnica",
+    "shortName": "GGR",
+    "localizedName": "Путеводитель Мастера Гильдии по Равнике, GGR (2018)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "acquisition-incorporated",
+    "name": "Acquisition Incorporated",
+    "localizedName": "AI (2019)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "eberron-rising-from-the-last-war",
+    "name": "Eberron: Rising from the Last War",
+    "localizedName": "RLW (2019)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "explorer-s-guide-to-wildemount",
+    "name": "Explorer's Guide to Wildemount",
+    "shortName": "EGW",
+    "localizedName": "Путеводитель Исследователя по Дикогорью, EGW (2020)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "mythic-odysseys-of-theros",
+    "name": "Mythic Odysseys of Theros",
+    "shortName": "MOT",
+    "localizedName": "Мифическая Одиссея Тероса, MOT (06 2020)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "tasha-s-cauldron-of-everything",
+    "name": "Tasha's Cauldron of Everything",
+    "shortName": "TCE",
+    "localizedName": "Котёл Таши со всякой всячиной, TCE (11 2020)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "van-richten-s-guide-to-ravenloft",
+    "name": "Van Richten's Guide to Ravenloft",
+    "shortName": "VRGR",
+    "localizedName": "Путеводитель Ван Рихтена по Равенлофту, VRGR (2021)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "fizban-s-treasury-of-dragons",
+    "name": "Fizban's Treasury of Dragons",
+    "shortName": "FTD",
+    "localizedName": "Сокровищница Драконов Физбана, FTD (10 2021)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "minsc-and-boo-s-journal-of-villainy",
+    "name": "Minsc and Boo's Journal of Villainy",
+    "localizedName": "Журнал Злодеев Минска и Бу (11 2021)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "strixhaven-a-curriculum-of-chaos",
+    "name": "Strixhaven: A Curriculum of Chaos",
+    "localizedName": "SCC (2021)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "mordenkainen-presents-monsters-of-the-multiverse",
+    "name": "Mordenkainen Presents: Monsters of the Multiverse",
+    "shortName": "MPMM",
+    "localizedName": "Морденкайнен представляет: чудовища Мультивселенной, MPMM (2022)",
+    "category": "sourcebook"
+  },
+  {
+    "id": "lost-mine-of-phandelver",
+    "name": "Lost Mine of Phandelver",
+    "shortName": "LMOP",
+    "localizedName": "Заброшенные рудники Фанделвера, LMOP (2014)",
+    "category": "campaign"
+  },
+  {
+    "id": "hoard-of-the-dragon-queen",
+    "name": "Hoard of the Dragon Queen",
+    "shortName": "HDQ",
+    "localizedName": "Клад Королевы Драконов, HDQ (12 2014)",
+    "category": "campaign"
+  },
+  {
+    "id": "the-rise-of-tiamat",
+    "name": "The Rise of Tiamat",
+    "localizedName": "ROT (2014)",
+    "category": "campaign"
+  },
+  {
+    "id": "out-of-the-abyss",
+    "name": "Out of the Abyss",
+    "shortName": "OTA",
+    "localizedName": "Из бездны, OTA (2015)",
+    "category": "campaign"
+  },
+  {
+    "id": "princes-of-the-apocalypse",
+    "name": "Princes of the Apocalypse",
+    "shortName": "PTA",
+    "localizedName": "Принцы Апокалипсиса, PTA (2015)",
+    "category": "campaign"
+  },
+  {
+    "id": "curse-of-strahd",
+    "name": "Curse of Strahd",
+    "shortName": "COS",
+    "localizedName": "Проклятие Страда, COS (2016)",
+    "category": "campaign"
+  },
+  {
+    "id": "storm-king-s-thunder",
+    "name": "Storm King's Thunder",
+    "localizedName": "SKT (2016)",
+    "category": "campaign"
+  },
+  {
+    "id": "tomb-of-annihilation",
+    "name": "Tomb of Annihilation",
+    "shortName": "TOA",
+    "localizedName": "Гробница Аннигиляции, TOA (2017)",
+    "category": "campaign"
+  },
+  {
+    "id": "tales-from-the-yawning-portal",
+    "name": "Tales from the Yawning Portal",
+    "shortName": "TYP",
+    "localizedName": "Байки из \"Зияющего Портала\", TYP (2017)",
+    "category": "campaign"
+  },
+  {
+    "id": "waterdeep-dragon-heist",
+    "name": "Waterdeep: Dragon Heist",
+    "shortName": "WDH",
+    "localizedName": "Глубоководье: Драконий куш, WDH (2018)",
+    "category": "campaign"
+  },
+  {
+    "id": "waterdeep-dungeon-of-the-mad-mage",
+    "name": "Waterdeep: Dungeon of the Mad Mage",
+    "shortName": "WDMM",
+    "localizedName": "Глубоководье: Подземелье Безумного Мага, WDMM (2018)",
+    "category": "campaign"
+  },
+  {
+    "id": "baldur-s-gate-descent-into-avernus",
+    "name": "Baldur's Gate: Descent Into Avernus",
+    "shortName": "BGDA",
+    "localizedName": "Врата Балдура: Нисхождение в Авернус, BGDA (2019)",
+    "category": "campaign"
+  },
+  {
+    "id": "ghosts-of-saltmarsh",
+    "name": "Ghosts of Saltmarsh",
+    "shortName": "GOS",
+    "localizedName": "Призраки Солтмарша, GOS (12 2019)",
+    "category": "campaign"
+  },
+  {
+    "id": "icewind-dale-rime-of-the-frostmaiden",
+    "name": "Icewind Dale: Rime of the Frostmaiden",
+    "localizedName": "IDRF (2020)",
+    "category": "campaign"
+  },
+  {
+    "id": "candlekeep-mysteries",
+    "name": "Candlekeep Mysteries",
+    "shortName": "CM",
+    "localizedName": "Тайны Кендлкипа, CM (2021)",
+    "category": "campaign"
+  },
+  {
+    "id": "the-wild-beyond-the-witchlight-a-feywild-adventure",
+    "name": "The Wild Beyond The Witchlight: A Feywild Adventure",
+    "localizedName": "WBW (2021)",
+    "category": "campaign"
+  },
+  {
+    "id": "spelljammer-adventures-in-space",
+    "name": "SPELLJAMMER: ADVENTURES IN SPACE",
+    "localizedName": "SAS (2022)",
+    "category": "campaign"
+  },
+  {
+    "id": "monstrous-compendium-volume-one-spelljammer-creatures",
+    "name": "Monstrous Compendium Volume One: Spelljammer Creatures",
+    "category": "supplement"
+  },
+  {
+    "id": "the-tortle-package",
+    "name": "The Tortle Package",
+    "category": "supplement"
+  },
+  {
+    "id": "tp-12-2017",
+    "name": "TP (12 2017)",
+    "category": "supplement"
+  },
+  {
+    "id": "locathah-rising",
+    "name": "Locathah Rising",
+    "localizedName": "LR (2019)",
+    "category": "supplement"
+  },
+  {
+    "id": "hunt-for-the-thessalhydra",
+    "name": "Hunt for the Thessalhydra",
+    "category": "supplement"
+  },
+  {
+    "id": "unearthed-arcana",
+    "name": "Unearthed Arcana",
+    "category": "supplement"
+  },
+  {
+    "id": "essentials-kit-divine-contention",
+    "name": "Essentials Kit: Divine Contention",
+    "category": "homebrew"
+  },
+  {
+    "id": "the-lost-dungeon-of-rickedness-big-rick-energy",
+    "name": "The Lost Dungeon of Rickedness: Big Rick Energy",
+    "category": "homebrew"
+  },
+  {
+    "id": "essentials-kit-sleeping-dragon-s-wake",
+    "name": "Essentials Kit: Sleeping Dragon's Wake",
+    "category": "homebrew"
+  },
+  {
+    "id": "technomancer-s-textbook",
+    "name": "Technomancer's Textbook",
+    "category": "homebrew"
+  },
+  {
+    "id": "adventure-with-muk",
+    "name": "Adventure With Muk",
+    "category": "homebrew"
+  },
+  {
+    "id": "one-grung-above",
+    "name": "One Grung Above",
+    "category": "homebrew"
+  },
+  {
+    "id": "plane-shift-zendikar",
+    "name": "Plane Shift: Zendikar",
+    "category": "homebrew"
+  },
+  {
+    "id": "plane-shift-innistrad",
+    "name": "Plane Shift: Innistrad",
+    "category": "homebrew"
+  },
+  {
+    "id": "plane-shift-kaladesh",
+    "name": "Plane Shift: Kaladesh",
+    "category": "homebrew"
+  },
+  {
+    "id": "plane-shift-amonkhet",
+    "name": "Plane Shift: Amonkhet",
+    "category": "homebrew"
+  },
+  {
+    "id": "plane-shift-ixalan",
+    "name": "Plane Shift: Ixalan",
+    "category": "homebrew"
+  },
+  {
+    "id": "plane-shift-dominaria",
+    "name": "Plane Shift: Dominaria",
+    "category": "homebrew"
+  },
+  {
+    "id": "matt-mercer-critical-role",
+    "name": "Matt Mercer / Critical Role",
+    "category": "homebrew"
+  },
+  {
+    "id": "exploring-eberron",
+    "name": "Exploring Eberron",
+    "category": "homebrew"
+  },
+  {
+    "id": "book-of-lost-spells",
+    "name": "Book of Lost Spells",
+    "category": "homebrew"
+  },
+  {
+    "id": "lost-laboratory-of-kwalish",
+    "name": "Lost Laboratory of Kwalish",
+    "category": "homebrew"
+  },
+  {
+    "id": "midgard-heroes-handbook",
+    "name": "Midgard Heroes Handbook",
+    "category": "homebrew"
+  },
+  {
+    "id": "monster-manual-expanded",
+    "name": "Monster Manual Expanded",
+    "category": "homebrew"
+  },
+  {
+    "id": "essentails-kit-dragon-of-icespire-peak",
+    "name": "Essentails kit: Dragon of Icespire peak",
+    "category": "homebrew"
+  },
+  {
+    "id": "critical-role-call-of-the-netherdeep",
+    "name": "Critical Role: Call of the Netherdeep",
+    "category": "homebrew"
+  },
+  {
+    "id": "sprouting-chaos",
+    "name": "Sprouting Chaos",
+    "localizedName": "HB: SC (2015)",
+    "category": "homebrew"
+  },
+  {
+    "id": "beasts-of-the-jungle-rot",
+    "name": "Beasts of the Jungle Rot",
+    "category": "homebrew"
+  },
+  {
+    "id": "morgrave-miscellany",
+    "name": "Morgrave Miscellany",
+    "category": "supplement"
+  },
+  {
+    "id": "grim-hollows-the-players-guide",
+    "name": "Grim Hollow’s The Players Guide",
+    "category": "supplement"
+  },
+  {
+    "id": "steinhardts-guide-to-the-eldritch-hunt",
+    "name": "Steinhardt's Guide to the Eldritch Hunt",
+    "category": "supplement"
+  }
+]
